@@ -215,6 +215,17 @@ body {
   gap: 50px;
 }
 
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
   /* background-color: var(--light-gray); */
