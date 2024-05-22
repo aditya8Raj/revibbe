@@ -25,6 +25,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- lootie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
 
   <body id="top">
@@ -34,7 +37,7 @@
 
     <header class="header" data-header>
       <div class="container">
-        <a href="#" class="logo"> ReVibbe<span class="span">.</span> </a>
+        <a href="#" class="logo"><span class="span">♡</span> ReVibbe </a>
 
         <nav class="navbar" data-navbar>
           <button
@@ -55,20 +58,21 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#course" class="navbar-link" data-nav-link>All Course</a>
+              <a href="#course" class="navbar-link" data-nav-link>Services</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              <a href="#blog" class="navbar-link" data-nav-link>Blogs</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+              <a href="#" class="navbar-link" data-nav-link>Need Help?</a>
             </li>
           </ul>
         </nav>
 
-        <a href="#" class="btn btn-primary">Sign Up</a>
+        <!-- "Safe Space button that will take to a forum website" -->
+        <a href="#" class="btn btn-primary">Safe Space</a>
 
         <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -94,9 +98,11 @@
           <div class="container">
             <p class="hero-subtitle">Mental Health & Wellness</p>
 
-            <h1 class="h1 hero-title">Reclaim Your Life with ReVibbe.</h1>
+            <h1 class="h1 hero-title" style="color: white">
+              Reclaim Your Life with ReVibbe.
+            </h1>
 
-            <p class="hero-text">
+            <p class="hero-text" style="color: white">
               Find support, share your story, and connect with experts
               anonymously.
             </p>
@@ -104,30 +110,27 @@
             <a href="#" class="btn btn-secondary">Start Your Journey</a>
 
             <div class="social-wrapper">
-              <p class="social-title">Connect with us:</p>
+              <p class="social-title" style="color: white">Connect with us:</p>
 
-              <ul class="social-list">
+              <ul class="social-list" style="color: white">
+                <!-- instagram icon -->
                 <li>
                   <a href="#" class="social-link">
-                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </li>
 
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-skype"></ion-icon>
-                  </a>
-                </li>
-
+                <!-- twitter icon -->
                 <li>
                   <a href="#" class="social-link">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a>
                 </li>
 
+                <!-- facebook item -->
                 <li>
                   <a href="#" class="social-link">
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
                   </a>
                 </li>
               </ul>
@@ -136,98 +139,7 @@
         </section>
 
         <!-- 
-        - #SERVICE
-      -->
-
-        <section class="section service" aria-label="service" data-section>
-          <div class="container">
-            <ul class="grid-list">
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <img
-                      src="./images/service-1.svg"
-                      width="60"
-                      height="60"
-                      loading="lazy"
-                      alt="Women’s Course"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Women’s Course</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy themes industryes psum has been
-                    them industry the loep into type setting.
-                  </p>
-
-                  <a href="#" class="btn btn-secondary">
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card active">
-                  <div class="card-icon">
-                    <img
-                      src="./images/service-2.svg"
-                      width="60"
-                      height="60"
-                      loading="lazy"
-                      alt="Basic Course"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Basic Course</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy themes industryes psum has been
-                    them industry the loep into type setting.
-                  </p>
-
-                  <a href="#" class="btn btn-secondary">
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <img
-                      src="./images/service-3.svg"
-                      width="60"
-                      height="60"
-                      loading="lazy"
-                      alt="Men’s Course"
-                    />
-                  </div>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Men’s Course</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy themes industryes psum has been
-                    them industry the loep into type setting.
-                  </p>
-
-                  <a href="#" class="btn btn-secondary">
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 
-        - #ABOUT
+        - #ABOUT SECTION
       -->
 
         <section
@@ -250,30 +162,139 @@
                 class="img-cover"
               />
 
-              <a href="#" class="btn btn-secondary">Meet Instructor</a>
+              <a href="#" class="btn btn-secondary">Safe Space</a>
             </div>
 
             <div class="about-content">
-              <p class="section-subtitle">25+ Years Of Experience</p>
+              <p class="section-subtitle">About ReVibbe</p>
 
               <h2 class="h2 section-title">
-                We have expert instructor for help our students.
+                Expert Support for Your Mental Well-Being
               </h2>
 
               <p class="section-text">
-                Lorem Ipsum is simply dummy text the printing and typesetting
-                standard dummy text ever since the 150 when an unknown printe
-                specimen book has survived centuries.
+                At ReVibbe, we are dedicated to helping you resolve your mental
+                health issues with a team of experienced professionals. Our
+                platform provides a safe space for you to share your experiences
+                and connect with the right support.
               </p>
 
-              <h3 class="about-h3">100+ Courses</h3>
+              <h3 class="about-h3">Our Mission</h3>
 
               <p class="section-text">
-                Lorem Ipsum is simply dummy text the printing and typesetting
-                standard dummy text ever since the 150 when an unknown printe
-                specimen book has survived centuries.
+                Our mission is to offer comprehensive mental health support
+                through personalized therapy sessions, an anonymous support
+                community, and premium recovery tools. We aim to empower
+                individuals to thrive and rediscover the joy in their lives.
               </p>
             </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE SECTION
+      -->
+
+        <section class="section service" aria-label="service" data-section>
+          <div class="title-wrapper">
+            <p class="section-subtitle">Support, Heal & Thrive</p>
+
+            <h2 class="h2 section-title">Our Key Services</h2>
+          </div>
+          <div class="container">
+            <ul class="grid-list">
+              <!-- icon 1 -->
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/therapy-1.png"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Women’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Personalized Therapy Sessions</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Experience tailored one-on-one therapy with our licensed
+                    professionals, available both in-person and online.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <!-- icon 2 -->
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/community-support-2.png"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Basic Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Anonymous Support Community</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Share your feelings and experiences in a judgment-free,
+                    anonymous environment, and connect with a supportive
+                    community.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <!-- icon 3 -->
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/recovery-tools-3.png"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Men’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >Premium Recovery Tools and Resources</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Utilize our advanced tools and resources, including guided
+                    meditations and personalized recovery plans, to enhance your
+                    mental health journey.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
 
@@ -289,272 +310,225 @@
         >
           <div class="container">
             <div class="title-wrapper">
-              <p class="section-subtitle">100+ Courses Available</p>
+              <p class="section-subtitle">On the Horizon</p>
 
-              <h2 class="h2 section-title">Fitness & Nutrition Courses</h2>
+              <h2 class="h2 section-title">Our Upcoming Features</h2>
             </div>
 
             <ul class="grid-list">
+              <!-- new feature 1 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-1.jpg"
+                    <lottie-player
+                      src="https://lottie.host/07721cc5-fe9a-4b78-b261-9ba51ef4e3c1/aJzPmH3F0h.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Children Nutrition and Cooking"
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="98">$98</data>
+                    <data class="card-price" value="1">1</data>
 
-                    <p class="card-author">
+                    <!-- write provider name -->
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Ryan Patterson</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Children Nutrition and Cooking</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Meditation Guidance</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT8H20M">08 hr 20 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">28 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
 
+              <!-- new feature 2 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-2.jpg"
+                    <lottie-player
+                      src="https://lottie.host/dadc8096-86d3-47f9-b6ad-ed5cea6c6ad4/wk98mZjjrA.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Introduction to Food and Health."
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="72">$72</data>
+                    <data class="card-price" value="2">2</data>
 
-                    <p class="card-author">
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Arlene Daniels</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Introduction to Food and Health.</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Yoga Videos</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT9H25M">09 hr 25 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">16 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
 
+              <!-- new feature 3 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-3.jpg"
+                    <lottie-player
+                      src="https://lottie.host/108b06a9-8eb0-4ce4-a4c2-b7c573fdd00c/MwOnLas34B.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Nutrition and Lifestyle in Pregnancy"
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="68">$68</data>
+                    <data class="card-price" value="3">3</data>
 
-                    <p class="card-author">
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Selina Benton</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Nutrition and Lifestyle in Pregnancy</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Nutrition and Diet</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT3H38M">03 hr 38 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">18 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
 
+              <!-- new feature 4 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-4.jpg"
+                    <lottie-player
+                      src="https://lottie.host/2c8e3352-1e0e-40aa-8c84-71ba63eb4749/UrHrQU7ImW.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Expertise on Fitness, Nutrition and Health"
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="98">$98</data>
+                    <data class="card-price" value="4">4</data>
 
-                    <p class="card-author">
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Ryan Patterson</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Expertise on Fitness, Nutrition and Health</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Breathing Practices</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT2H16M">02 hr 16 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">14 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
 
+              <!-- new feature 5 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-5.jpg"
+                    <lottie-player
+                      src="https://lottie.host/ad234712-d32e-4932-b66e-1d87d12e23f9/Pw9GTVc58o.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Hacking exercise for health new science of fitness"
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="72">$72</data>
+                    <data class="card-price" value="5">5</data>
 
-                    <p class="card-author">
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Arlene Daniels</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Hacking exercise for health new science of fitness</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Mindful Music</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT6H12M">06 hr 12 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">35 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
 
+              <!-- new feature 6 -->
               <li>
                 <div class="course-card">
                   <figure
                     class="card-banner img-holder"
                     style="--width: 350; --height: 300"
                   >
-                    <img
-                      src="./images/courses-6.jpg"
+                    <lottie-player
+                      src="https://lottie.host/532fbd1f-2a1e-412c-b74c-9e5059b56f2d/C3w5nZpWkb.json"
+                      background="transparent"
+                      speed="1"
+                      loop
+                      autoplay
+                      class="img-cover"
                       width="350"
                       height="300"
                       loading="lazy"
-                      alt="Designing Your Personal Weight Loss Plan"
-                      class="img-cover"
-                    />
+                    ></lottie-player>
                   </figure>
 
                   <div class="card-content">
-                    <data class="card-price" value="68">$68</data>
+                    <data class="card-price" value="6">6</data>
 
-                    <p class="card-author">
+                    <!-- <p class="card-author">
                       <a href="#" class="card-link">
-                        By: <span class="span">Selina Benton</span>
+                        By: <span class="span">ReVibbe Expert</span>
                       </a>
-                    </p>
+                    </p> -->
 
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Designing Your Personal Weight Loss Plan</a
-                      >
+                    <h3 class="h3" style="text-align: center">
+                      <a href="#" class="card-title">Theraputic Podcast</a>
                     </h3>
-
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <time datetime="PT9H34M">09 hr 34 mins</time>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <p class="card-meta-text">28 Lectures</p>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </li>
@@ -863,9 +837,14 @@
       <div class="footer-bottom">
         <div class="container">
           <p class="copyright">
-            &copy; 2022 Futras Made With
+            &copy; 2024 ReVibber Made With
             <ion-icon name="heart" aria-hidden="true"></ion-icon> by
-            <a href="#" class="copyright-link">codewithsadee</a>
+            <a
+              href="https://adinition.tech"
+              target="_blank"
+              class="copyright-link"
+              >ADINITION</a
+            >
           </p>
 
           <ul class="footer-bottom-list">
